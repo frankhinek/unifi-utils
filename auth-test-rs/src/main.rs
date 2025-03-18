@@ -14,7 +14,7 @@ struct Args {
     #[clap(long, default_value = "8443")]
     port: u16,
 
-    #[clap(long, default_value = "fediadmin")]
+    #[clap(long, default_value = "testadmin")]
     username: String,
 
     #[clap(long)]
