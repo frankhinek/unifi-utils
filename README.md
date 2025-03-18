@@ -9,23 +9,14 @@ controllers and their APIs.
 ### Authentication Testing Tools
 Tools for verifying UniFi Controller authentication and API access:
 
-- **auth-test-rs**: A Rust implementation with command-line arguments and
+- **[auth-test-rs](./auth-test-rs/)**: A Rust implementation with command-line arguments and
                     structured output
-- **auth-test-js**: A Node.js implementation with interactive password prompt
+- **[auth-test-js](./auth-test-rs/)**: A Node.js implementation with interactive password prompt
 
 Both authentication testers provide:
 - Controller authentication verification
 - Site listing functionality
 - Optional guest authorization testing
-
-## Project Structure
-
-```
-.
-├── auth-test-rs/ # Rust implementation
-├── auth-test-js/ # Node.js implementation
-└── README.md # This file
-```
 
 ## License
 
